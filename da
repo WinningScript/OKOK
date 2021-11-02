@@ -1,0 +1,8 @@
+--execute and wait 10 seconds then rejoin
+for i = 10000,10500,1 do
+local ohString1 = "Stock"
+local ohString2 = i
+local ohNumber3 = 10
+
+game:GetService("ReplicatedStorage").Events.Equipment.EquipmentRE:FireServer(ohString1, ohString2, ohNumber3)
+end
